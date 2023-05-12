@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500;800&display=swap');
+.page{
+    min-height: 80vh;
+    padding: 8rem 4rem;
+    color: rgb(66, 65, 65);
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+.page>h3{
+    border-radius: 1rem 1rem 0 0;
+    padding: 1rem 1rem 0 1rem;
+    background-color: rgb(143, 248, 248);
+    letter-spacing: 2px;
+    max-width: 50rem;
+}
+.page>h1{
+    padding: 0 1rem;
+    color: rgb(44, 99, 109);
+    background-color: rgb(143, 248, 248);
+    max-width: 50rem;
+}
+.page>p{
+    padding: 1rem;
+    max-width: 50rem;
+    background-image: linear-gradient(rgb(143, 248, 248),rgba(143, 248, 248, 0));
+}
+
+/*Home*/
+.home_cv_download{
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: fit-content;
+    background-color: rgb(176, 210, 216);
+}
+.home_cv_download>a{
+    color: rgb(44, 99, 109);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Contact*/
+.contact-form{
+    margin-top: 4rem;
+    background-color: rgb(176, 210, 216);
+    flex-direction: column;
+    min-width: 18rem;
+    max-width: 50rem;
+    border-radius: 1rem;
+}
+.contact-form>div{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.contact-form>div>input,.contact-form>div>textarea{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+}
+.contact-form>div>button{
+    background-color: rgba(0, 255, 255, 0.411);
+    color: rgb(44, 99, 109);
+    font-size: 1rem;
+    font-weight: bold;
+    width: fit-content;
+    margin:  1rem auto;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+}
+
+/*Skills*/
+
+.skills_icons{
+    margin-top: 4rem;
+    background-color: rgb(176, 210, 216);
+    min-width: 18rem;
+    max-width: 50rem;
+    min-height: 10rem ;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.skills_icons>a>img{
+    width: 5rem;
+    margin: 1rem 0.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+/*Experience*/
+.experience_list>div{
+    margin-top: 4rem;
+    background-color: rgb(176, 210, 216);
+    min-width: 18rem;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.experience_list>div>h3,.experience_list>div>h4{
+    color: rgb(44, 99, 109);
+    margin: 0.5rem 0 0 0;
+}
+.experience_list>div>p{
+    margin-top: 1rem;
+}
